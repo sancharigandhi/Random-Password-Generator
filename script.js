@@ -42,7 +42,7 @@ password.addEventListener("input", function () {
   } else {
     strength.style.display = "none";
   }
-
+// To show the strength of the password
   if (password.value.length < 4) {
     strength.innerText = "weak";
     strength.style.color = "red";
